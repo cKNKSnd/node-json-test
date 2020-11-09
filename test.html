@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">  
+        <title>测试</title>
+        <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+        </script>
+    </head>
+    <body>
+        <div>
+            <h1>Hello world</h1>
+        </div>
+        <button id="btn-1">click me</button>
+        <div id="data">
+
+        </div>
+        
+    <script>
+        $('#btn-1').click(function (e) { 
+            //e.preventDefault();
+            $.ajax({
+            url: '/getData',
+            dataType: 'json',
+            success: function (result) { 
+                var data = JSON.parse(result)
+                //$('#data').append(typeof data);
+                var preData = {
+                    "riskPoint": "",
+                    "hazardDescription": "",
+                    "riskCategory": "",
+                    "groupInvolved": "",
+                    "consequence": "",
+                    "method": "",
+                    "situation": ""
+                }    //储存上一个数据的值
+                var riskPointDic = { }   
+                var groupInvolvedDic = {}
+                var consequenceDic = {}
+
+                debugger
+                for(id in data.testData){
+                    if(preData.riskPoint === ''){
+                        preData.riskPoint = data.testData[id].riskPoint
+                        riskPointDic[data.testData[id].riskPoint] = 1
+                    } else if (data.testData[id].riskPoint === preData.riskPoint) {
+                        riskPointDic[data.testData[id].riskPoint] += 1
+                    }else{
+                        preData.riskPoint = data.testData[id].riskPoint
+                        riskPointDic[data.testData[id].riskPoint] = 1
+                    }
+
+
+                    if(preData.groupInvolved === ''){
+                        preData.groupInvolved = data.testData[id].groupInvolved
+                        groupInvolvedDic[data.testData[id].groupInvolved] = 1
+                    } else if (data.testData[id].groupInvolved === preData.groupInvolved) {
+                        groupInvolvedDic[data.testData[id].groupInvolved] += 1
+                    }else{
+                        preData.groupInvolved = data.testData[id].groupInvolved
+                        groupInvolvedDic[data.testData[id].groupInvolved] = 1
+                    }
+
+                    if(preData.consequence === ''){
+                        preData.consequence = data.testData[id].consequence
+                        consequenceDic[data.testData[id].consequence] = 1
+                    } else if (data.testData[id].consequence === preData.consequence) {
+                        consequenceDic[data.testData[id].consequence] += 1
+                    }else{
+                        preData.consequence = data.testData[id].consequence
+                        consequenceDic[data.testData[id].consequence] = 1
+                    }
+                }
+                alert(JSON.stringify(preData))
+                alert(JSON.stringify(riskPointDic))
+                alert(JSON.stringify(groupInvolvedDic))
+                alert(JSON.stringify(consequenceDic))
+
+                
+             }
+            })
+        });
+    </script>
+    </body>
+</html>

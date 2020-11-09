@@ -1,0 +1,244 @@
+{
+    "testData": [
+        {
+            "id": 1,
+            "riskPoint": "交接班",
+            "hazardDescription": "劳保防护用品穿戴",
+            "riskCategory": "人身伤害",
+            "groupInvolved": "现场船岸作业所有人员",
+            "consequence": "人身伤害财产损失",
+            "method": "现场检查",
+            "situation": ""
+        },
+        {
+            "id": 2,
+            "riskPoint": "交接班",
+            "hazardDescription": "巡逻车检查情况",
+            "riskCategory": "车辆受损",
+            "groupInvolved": "现场船岸作业所有人员",
+            "consequence": "人身伤害财产损失",
+            "method": "现场检查",
+            "situation": ""
+        },
+        {
+            "id": 3,
+            "riskPoint": "交接班",
+            "hazardDescription": "属地人员班前状态（酒后、疲劳）",
+            "riskCategory": "人身伤害",
+            "groupInvolved": "现场船岸作业所有人员",
+            "consequence": "人身伤害财产损失",
+            "method": "现场检查",
+            "situation": ""
+        },
+        {
+            "id": 4,
+            "riskPoint": "靠离泊作业",
+            "hazardDescription": "靠离泊区域港池内有障碍物、码头面区域不清爽，桥吊未移到规范位置或未规范起升大臂影响靠离泊作业",
+            "riskCategory": "设备、设施伤害、物体打击",
+            "groupInvolved": "",
+            "consequence": "人身伤害财产损失",
+            "method": "现场检查",
+            "situation": ""
+        },
+        {
+            "id": 5,
+            "riskPoint": "靠离泊作业",
+            "hazardDescription": "靠离泊时桥吊未停放于安全距离外司机在岗情况",
+            "riskCategory": "其他",
+            "groupInvolved": "",
+            "consequence": "人身伤害财产损失",
+            "method": "现场检查",
+            "situation": ""
+        },
+        {
+            "id": 6,
+            "riskPoint": "靠离泊作业",
+            "hazardDescription": "辅助靠泊人员到位、劳保穿戴、站位情况，辅助靠泊叉车是否规范操作、专人指挥",
+            "riskCategory": "溺淹、物体打击、车辆伤害、其他",
+            "groupInvolved": "",
+            "consequence": "人身伤害财产损失",
+            "method": "现场检查",
+            "situation": ""
+        },
+        {
+            "id": 7,
+            "riskPoint": "靠离泊作业",
+            "hazardDescription": "靠离泊作业中船舶实时动态监控",
+            "riskCategory": "设备、设施伤害",
+            "groupInvolved": "",
+            "consequence": "人身伤害财产损失",
+            "method": "现场检查",
+            "situation": ""
+        },
+        {
+            "id": 8,
+            "riskPoint": "靠离泊作业",
+            "hazardDescription": "靠离泊作业中缆绳未足够松弛、安全长度不够，靠泊结束后缆桩区域是否清爽",
+            "riskCategory": "物体打击、溺淹、其他",
+            "groupInvolved": "",
+            "consequence": "人身伤害财产损失",
+            "method": "现场检查",
+            "situation": ""
+        },
+        {
+            "id": 9,
+            "riskPoint": "移桥监护作业",
+            "hazardDescription": "接到移桥指令后的人员到、站位情况",
+            "riskCategory": "其他",
+            "groupInvolved": "",
+            "consequence": "人身伤害财产损失",
+            "method": "现场检查",
+            "situation": ""
+        },
+        {
+            "id": 10,
+            "riskPoint": "船舶装卸作业",
+            "hazardDescription": "船方登轮设施设置不规范或未使用安全方式登轮",
+            "riskCategory": "溺淹",
+            "groupInvolved": "",
+            "consequence": "人身伤害财产损失",
+            "method": "现场检查",
+            "situation": ""
+        },
+        {
+            "id": 11,
+            "riskPoint": "船舶装卸作业",
+            "hazardDescription": "人、车辆关路未避让、立体交叉作业",
+            "riskCategory": "车辆、人身伤害",
+            "groupInvolved": "",
+            "consequence": "人身伤害财产损失",
+            "method": "现场检查",
+            "situation": ""
+        },
+        {
+            "id": 12,
+            "riskPoint": "船舶装卸作业",
+            "hazardDescription": "人员坐、靠、倚在作业桥吊上，登高作业及（无护栏舱口）未规范使用安全带",
+            "riskCategory": "人身伤害、高处坠落",
+            "groupInvolved": "",
+            "consequence": "人身伤害财产损失",
+            "method": "现场检查",
+            "situation": ""
+        },
+        {
+            "id": 13,
+            "riskPoint": "船舶装卸作业",
+            "hazardDescription": "舱盖作业游离物未规范整理，码头面钮锁箱、舱盖放置未设置警示标志",
+            "riskCategory": "人身、车辆伤害",
+            "groupInvolved": "",
+            "consequence": "人身伤害财产损失",
+            "method": "现场检查",
+            "situation": ""
+        },
+        {
+            "id": 14,
+            "riskPoint": "船舶装卸作业",
+            "hazardDescription": "工人解钮锁时吊具与箱体未脱离及冻柜、特殊柜作业未规范确认，操作司机未落实30公分停顿",
+            "riskCategory": "人身伤害、起重伤害",
+            "groupInvolved": "",
+            "consequence": "人身伤害财产损失",
+            "method": "现场检查",
+            "situation": ""
+        },
+        {
+            "id": 15,
+            "riskPoint": "船舶装卸作业",
+            "hazardDescription": "作业油罐箱未使用平板架，拖车行驶中未上锁，单箱未放车架后部。",
+            "riskCategory": "其他",
+            "groupInvolved": "",
+            "consequence": "人身伤害财产损失",
+            "method": "现场检查",
+            "situation": ""
+        },
+        {
+            "id": 16,
+            "riskPoint": "船舶装卸作业",
+            "hazardDescription": "箱顶向下，船向码头面抛扔钮锁、工具或装卸使用的锁具直接放在码头面",
+            "riskCategory": "人身、设施、车辆伤害",
+            "groupInvolved": "",
+            "consequence": "人身伤害财产损失",
+            "method": "现场检查",
+            "situation": ""
+        },
+        {
+            "id": 17,
+            "riskPoint": "船舶装卸作业",
+            "hazardDescription": "指挥手站位不规范、脱岗，装卸舱面上、海陆两侧的箱子未按流程",
+            "riskCategory": "起重伤害",
+            "groupInvolved": "",
+            "consequence": "人身伤害财产损失",
+            "method": "现场检查",
+            "situation": ""
+        },
+        {
+            "id": 18,
+            "riskPoint": "船舶装卸作业",
+            "hazardDescription": "未平衡装卸，船体严重侧倾、翘头或尾。",
+            "riskCategory": "其他",
+            "groupInvolved": "",
+            "consequence": "人身伤害财产损失",
+            "method": "现场检查",
+            "situation": ""
+        },
+        {
+            "id": 19,
+            "riskPoint": "船舶装卸作业",
+            "hazardDescription": "作业车辆超速及穿越安全距离不足的两桥间",
+            "riskCategory": "车辆、人身伤害",
+            "groupInvolved": "",
+            "consequence": "人身伤害财产损失",
+            "method": "现场检查",
+            "situation": ""
+        },
+        {
+            "id": 20,
+            "riskPoint": "船舶装卸作业",
+            "hazardDescription": "作业人员违章使用电子产品、作业区域吸烟",
+            "riskCategory": "人身伤害、车辆伤害、火灾",
+            "groupInvolved": "",
+            "consequence": "人身伤害财产损失",
+            "method": "现场检查",
+            "situation": ""
+        },
+        {
+            "id": 21,
+            "riskPoint": "防风防台工作",
+            "hazardDescription": "日常停机未按规定穿防爬鞋，汛期内未防台绑扎。",
+            "riskCategory": "设备受损",
+            "groupInvolved": "",
+            "consequence": "人身伤害财产损失",
+            "method": "现场检查",
+            "situation": ""
+        },
+        {
+            "id": 22,
+            "riskPoint": "防风防台工作",
+            "hazardDescription": "发布、解除防台指令后，桥吊使用前未做好解除防风锚锭工作。",
+            "riskCategory": "设备受损",
+            "groupInvolved": "",
+            "consequence": "人身伤害财产损失",
+            "method": "现场检查",
+            "situation": ""
+        },
+        {
+            "id": 23,
+            "riskPoint": "其他",
+            "hazardDescription": "外来人员进入现场的劳保穿戴、及规范站位、车辆停放",
+            "riskCategory": "车辆、人身伤害",
+            "groupInvolved": "",
+            "consequence": "人身伤害财产损失",
+            "method": "现场检查",
+            "situation": ""
+        },
+        {
+            "id": 24,
+            "riskPoint": "其他",
+            "hazardDescription": "码头面凹陷",
+            "riskCategory": "设备、车辆受损",
+            "groupInvolved": "",
+            "consequence": "人身伤害财产损失",
+            "method": "现场检查",
+            "situation": ""
+        }
+    ]
+}
